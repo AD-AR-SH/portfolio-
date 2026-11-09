@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Adarsh S — AI Systems & Automation. Building intelligent systems, connecting ideas, automating possibilities." />
+  <meta name="author" content="Adarsh S" />
+  <meta property="og:title" content="Adarsh S — AI Systems & Automation" />
+  <meta property="og:description" content="Building Intelligent Systems. Connecting Ideas. Automating Possibilities." />
+  <meta property="og:type" content="website" />
+  <title>Adarsh S — AI Systems & Automation</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       SKIP LINK (Accessibility)
+  ============================================================ -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Adarsh S — Home">
+        <span class="nav__logo-mark">AS</span>
+        <span class="nav__logo-text">Adarsh S</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu" role="list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#expertise" class="nav__link">Expertise</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#certificates" class="nav__link">Certificates</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       MAIN CONTENT
+  ============================================================ -->
+  <main id="main-content">
+
+    <!-- ── HERO ─────────────────────────────────────────────── -->
+    <section class="hero" id="hero" aria-label="Hero introduction">
+      <!-- Ambient orbit motif (purely decorative) -->
+      <div class="hero__orbit" aria-hidden="true">
+        <div class="orbit orbit--1"></div>
+        <div class="orbit orbit--2"></div>
+        <div class="orbit orbit--3"></div>
+        <div class="orbit__node orbit__node--1"></div>
+        <div class="orbit__node orbit__node--2"></div>
+        <div class="orbit__node orbit__node--3"></div>
+        <div class="orbit__signal" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero__inner container">
+        <!-- Photo placeholder -->
+        <div class="hero__photo-wrap">
+          <div class="hero__photo-placeholder" aria-label="Profile photo placeholder — replace with portrait">
+            <div class="hero__photo-frame" aria-hidden="true">
+              <div class="hero__photo-initials">AS</div>
+              <div class="hero__photo-label">[ Portrait — coming soon ]</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text block -->
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">AI Systems &amp; Automation</p>
+
+          <h1 class="hero__name reveal reveal--delay-1" aria-label="Adarsh S">
+            <span class="hero__name-first">ADARSH</span>
+            <span class="hero__name-slash"></span>
+            <span class="hero__name-last"></span>
+          </h1>
+
+          <p class="hero__tagline reveal reveal--delay-2">
+            Turning ideas into intelligent experiences.
+          </p>
+
+          <!-- Rotating role line -->
+          <div class="hero__roles reveal reveal--delay-3" aria-live="polite" aria-atomic="true">
+            <span class="hero__roles-prefix">I build&nbsp;</span>
+            <span class="hero__roles-rotator" id="rolesRotator" aria-label="rotating role descriptions">
+              <span class="role active">AI&nbsp;Agents</span>
+              <span class="role">Automation Pipelines</span>
+              <span class="role">ML&nbsp;Systems</span>
+              <span class="role">IoT&nbsp;Solutions</span>
+              <span class="role">Web&nbsp;Applications</span>
+            </span>
+          </div>
+
+          <p class="hero__bio reveal reveal--delay-3">
+            Building Intelligent Systems. Connecting Ideas. Automating Possibilities.
+          </p>
+
+          <!-- Social links -->
+          <div class="hero__social reveal reveal--delay-4">
+            <a href="https://github.com/AD-AR-SH" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/adarsh-ml" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:adarshuser27@gmail.com" class="social-link" aria-label="Send email">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <span>Email</span>
+            </a>
+          </div>
+
+          <!-- CTAs -->
+          <div class="hero__ctas reveal reveal--delay-4">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--ghost">Let's Connect</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="scroll-cue">
+          <span class="scroll-cue__line"></span>
+          <span class="scroll-cue__label">scroll</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ─────────────────────────────────────────────── -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__num">01</span>
+          <span class="section-label__line" aria-hidden="true"></span>
+          <span class="section-label__text">About</span>
+        </div>
+
+        <h2 class="about__headline display-heading reveal reveal--delay-1" id="about-heading">
+          CURIOUS BY<br/>NATURE.<br/>
+          <em>BUILDER BY CHOICE.</em>
+        </h2>
+
+        <div class="about__grid">
+          <div class="about__text reveal reveal--delay-2">
+            <p class="about__lead">
+              I'm Adarsh S — a developer and systems thinker passionate about the intersection of artificial intelligence, automation, and real-world impact.
+            </p>
+            <p>
+              My work lives at the edge where code meets intelligence. I design and build AI agents, machine learning pipelines, and automation workflows that solve concrete problems — not theoretical ones. Whether it's securing systems against phishing attacks, making attendance touchless, or monitoring patient health in real time, I build things that actually work.
+            </p>
+            <p>
+              I believe in learning relentlessly, shipping deliberately, and designing systems that earn trust.
+            </p>
+          </div>
+
+          <div class="about__card reveal reveal--delay-3">
+            <div class="edu-card">
+              <div class="edu-card__icon" aria-hidden="true">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="edu-card__content">
+                <p class="edu-card__degree">Bachelor of Computer Applications</p>
+                <p class="edu-card__spec">Specialization: AI, ML &amp; Robotics</p>
+                <p class="edu-card__uni">Yenepoya University</p>
+                <p class="edu-card__year">2023 — 2026</p>
+              </div>
+            </div>
+
+            <div class="about__stats">
+              <div class="stat">
+                <span class="stat__num">3+</span>
+                <span class="stat__label">Projects Shipped</span>
+              </div>
+              <div class="stat">
+                <span class="stat__num">2</span>
+                <span class="stat__label">Internships</span>
+              </div>
+              <div class="stat">
+                <span class="stat__num">∞</span>
+                <span class="stat__label">Curiosity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERTISE ──────────────────────────────────────────── -->
+    <section class="expertise section" id="expertise" aria-labelledby="expertise-heading">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__num">02</span>
+          <span class="section-label__line" aria-hidden="true"></span>
+          <span class="section-label__text">Expertise</span>
+        </div>
+
+        <h2 class="display-heading reveal reveal--delay-1" id="expertise-heading">
+          TOOLS OF<br/><em>THE TRADE.</em>
+        </h2>
+
+        <!-- Category tabs -->
+        <div class="expertise__tabs" role="tablist" aria-label="Skill categories">
+          <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-programming" data-tab="programming">Programming</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-web" data-tab="web">Web</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-aiml" data-tab="aiml">AI / ML</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-automation" data-tab="automation">Automation</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-tools" data-tab="tools">Tools</button>
+        </div>
+
+        <!-- Skill panels -->
+        <div class="expertise__panels">
+          <div class="tab-panel active" id="tab-programming" role="tabpanel" aria-labelledby="tab-programming">
+            <div class="skill-grid">
+              <div class="skill-pill">
+                <i class="fab fa-python" aria-hidden="true"></i>
+                <span>Python</span>
+              </div>
+              <div class="skill-pill">
+                <i class="fab fa-java" aria-hidden="true"></i>
+                <span>Java</span>
+              </div>
+              <div class="skill-pill">
+                <i class="fas fa-code" aria-hidden="true"></i>
+                <span>C / C++</span>
+              </div>
+              <div class="skill-pill">
+                <i class="fab fa-js" aria-hidden="true"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-pill">
+                <i class="fas fa-database" aria-hidden="true"></i>
+                <span>SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-web" role="tabpanel">
+            <div class="skill-grid">
+              <div class="skill-pill"><i class="fab fa-html5" aria-hidden="true"></i><span>HTML5</span></div>
+              <div class="skill-pill"><i class="fab fa-css3-alt" aria-hidden="true"></i><span>CSS3</span></div>
+              <div class="skill-pill"><i class="fab fa-js" aria-hidden="true"></i><span>JavaScript</span></div>
+              <div class="skill-pill"><i class="fab fa-python" aria-hidden="true"></i><span>Flask</span></div>
+              <div class="skill-pill"><i class="fab fa-python" aria-hidden="true"></i><span>Django</span></div>
+              <div class="skill-pill"><i class="fab fa-react" aria-hidden="true"></i><span>React</span></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-aiml" role="tabpanel">
+            <div class="skill-grid">
+              <div class="skill-pill"><i class="fas fa-brain" aria-hidden="true"></i><span>Machine Learning</span></div>
+              <div class="skill-pill"><i class="fas fa-chart-line" aria-hidden="true"></i><span>Scikit-learn</span></div>
+              <div class="skill-pill"><i class="fas fa-table" aria-hidden="true"></i><span>Pandas</span></div>
+              <div class="skill-pill"><i class="fas fa-calculator" aria-hidden="true"></i><span>NumPy</span></div>
+              <div class="skill-pill"><i class="fas fa-network-wired" aria-hidden="true"></i><span>TensorFlow</span></div>
+              <div class="skill-pill"><i class="fas fa-robot" aria-hidden="true"></i><span>LLM Applications</span></div>
+              <div class="skill-pill"><i class="fas fa-search" aria-hidden="true"></i><span>RAG</span></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-automation" role="tabpanel">
+            <div class="skill-grid">
+              <div class="skill-pill"><i class="fas fa-robot" aria-hidden="true"></i><span>AI Agents</span></div>
+              <div class="skill-pill"><i class="fas fa-plug" aria-hidden="true"></i><span>MCP</span></div>
+              <div class="skill-pill"><i class="fas fa-cogs" aria-hidden="true"></i><span>Workflow Automation</span></div>
+              <div class="skill-pill"><i class="fas fa-exchange-alt" aria-hidden="true"></i><span>API Integration</span></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-tools" role="tabpanel">
+            <div class="skill-grid">
+              <div class="skill-pill"><i class="fab fa-git-alt" aria-hidden="true"></i><span>Git</span></div>
+              <div class="skill-pill"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></div>
+              <div class="skill-pill"><i class="fas fa-code" aria-hidden="true"></i><span>VS Code</span></div>
+              <div class="skill-pill"><i class="fas fa-database" aria-hidden="true"></i><span>MySQL</span></div>
+              <div class="skill-pill"><i class="fas fa-microchip" aria-hidden="true"></i><span>Arduino</span></div>
+              <div class="skill-pill"><i class="fas fa-wifi" aria-hidden="true"></i><span>ESP32</span></div>
+              <div class="skill-pill"><i class="fas fa-paper-plane" aria-hidden="true"></i><span>Postman</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ───────────────────────────────────────────── -->
+    <section class="projects section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__num">03</span>
+          <span class="section-label__line" aria-hidden="true"></span>
+          <span class="section-label__text">Projects</span>
+        </div>
+
+        <h2 class="display-heading reveal reveal--delay-1" id="projects-heading">
+          WHAT I'VE<br/><em>BUILT.</em>
+        </h2>
+
+        <!-- Project 01 — ShieldAI -->
+        <article class="project-card reveal reveal--delay-2" aria-labelledby="proj-shield-title">
+          <div class="project-card__visual" aria-label="ShieldAI concept placeholder — screenshot coming soon">
+            <div class="project-placeholder">
+              <div class="project-placeholder__grid" aria-hidden="true">
+                <div class="pp-node pp-node--1"></div>
+                <div class="pp-node pp-node--2"></div>
+                <div class="pp-node pp-node--3"></div>
+                <div class="pp-line pp-line--1"></div>
+                <div class="pp-line pp-line--2"></div>
+              </div>
+              <div class="project-placeholder__label">
+                <i class="fas fa-shield-halved" aria-hidden="true"></i>
+                <span>Visual placeholder — real screenshot coming soon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__content">
+            <div class="project-card__meta">
+              <span class="project-num">01</span>
+              <span class="project-tag">Cybersecurity &bull; AI</span>
+            </div>
+            <h3 class="project-card__title" id="proj-shield-title">ShieldAI</h3>
+            <p class="project-card__desc">
+              A cybersecurity application that detects scam messages and phishing URLs, performs domain OSINT lookups, generates risk scores, simulates attack vectors, and presents insights through an interactive security dashboard. Built during my internship at Srishti Innovatives.
+            </p>
+            <ul class="project-card__tech" aria-label="Technologies used">
+              <li>Python</li>
+              <li>Flask / Django</li>
+              <li>Machine Learning</li>
+              <li>HTML / CSS / JS</li>
+              <li>APIs</li>
+            </ul>
+            <div class="project-card__links">
+              <span class="project-link project-link--placeholder">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                Repository — link coming soon
+              </span>
+              <span class="project-link project-link--placeholder">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                Live demo — coming soon
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 02 — RFID Attendance -->
+        <article class="project-card project-card--reverse reveal reveal--delay-1" aria-labelledby="proj-rfid-title">
+          <div class="project-card__visual" aria-label="RFID Smart Attendance concept placeholder">
+            <div class="project-placeholder">
+              <div class="project-placeholder__grid" aria-hidden="true">
+                <div class="pp-node pp-node--4"></div>
+                <div class="pp-node pp-node--5"></div>
+                <div class="pp-line pp-line--3"></div>
+                <div class="pp-wave" aria-hidden="true"></div>
+              </div>
+              <div class="project-placeholder__label">
+                <i class="fas fa-id-card" aria-hidden="true"></i>
+                <span>Visual placeholder — real screenshot coming soon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__content">
+            <div class="project-card__meta">
+              <span class="project-num">02</span>
+              <span class="project-tag">IoT &bull; Embedded</span>
+            </div>
+            <h3 class="project-card__title" id="proj-rfid-title">RFID Smart Attendance</h3>
+            <p class="project-card__desc">
+              A touchless attendance system using RFID cards and an ESP32 microcontroller. Attendance records sync automatically to Google Sheets via Apps Script, with LCD feedback and an audible buzzer confirming each scan.
+            </p>
+            <ul class="project-card__tech" aria-label="Technologies used">
+              <li>ESP32</li>
+              <li>Arduino</li>
+              <li>MFRC522</li>
+              <li>C++</li>
+              <li>Google Apps Script</li>
+            </ul>
+            <div class="project-card__links">
+              <span class="project-link project-link--placeholder">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                Repository — link coming soon
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 03 — IoT Patient Health -->
+        <article class="project-card reveal reveal--delay-2" aria-labelledby="proj-iot-title">
+          <div class="project-card__visual" aria-label="IoT Patient Health Monitoring concept placeholder">
+            <div class="project-placeholder">
+              <div class="project-placeholder__grid" aria-hidden="true">
+                <div class="pp-pulse" aria-hidden="true"></div>
+                <div class="pp-node pp-node--6"></div>
+                <div class="pp-line pp-line--4"></div>
+              </div>
+              <div class="project-placeholder__label">
+                <i class="fas fa-heart-pulse" aria-hidden="true"></i>
+                <span>Visual placeholder — real screenshot coming soon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__content">
+            <div class="project-card__meta">
+              <span class="project-num">03</span>
+              <span class="project-tag">IoT &bull; Healthcare</span>
+            </div>
+            <h3 class="project-card__title" id="proj-iot-title">IoT Patient Health Monitoring</h3>
+            <p class="project-card__desc">
+              A sensor-based prototype that tracks patient vitals in real time using pulse oximetry sensors. Data is displayed on an LCD and can be extended to send alerts — a foundation for accessible, low-cost patient monitoring.
+            </p>
+            <ul class="project-card__tech" aria-label="Technologies used">
+              <li>Arduino</li>
+              <li>MAX30100 / MAX30105</li>
+              <li>Embedded C++</li>
+              <li>LCD Display</li>
+            </ul>
+            <div class="project-card__links">
+              <span class="project-link project-link--placeholder">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                Repository — link coming soon
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ─────────────────────────────────────────── -->
+    <section class="experience section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__num">04</span>
+          <span class="section-label__line" aria-hidden="true"></span>
+          <span class="section-label__text">Experience</span>
+        </div>
+
+        <h2 class="display-heading reveal reveal--delay-1" id="experience-heading">
+          WHERE I'VE<br/><em>WORKED.</em>
+        </h2>
+
+        <div class="timeline">
+          <!-- Srishti -->
+          <article class="timeline-item reveal reveal--delay-2" aria-labelledby="exp-srishti-title">
+            <div class="timeline-item__marker" aria-hidden="true">
+              <div class="timeline-item__dot"></div>
+              <div class="timeline-item__line"></div>
+            </div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__header">
+                <div>
+                  <h3 class="timeline-item__title" id="exp-srishti-title">Internship Trainee</h3>
+                  <p class="timeline-item__company">Srishti Innovatives</p>
+                </div>
+                <div class="timeline-item__meta">
+                  <span class="timeline-item__duration">45 Days</span>
+                  <span class="timeline-item__date">[ Dates — please add ]</span>
+                </div>
+              </div>
+              <p class="timeline-item__desc">
+                Worked on ShieldAI — a cybersecurity application for phishing URL detection, domain OSINT, and scam message analysis. Gained hands-on experience building ML-powered security tools with a web interface.
+              </p>
+              <div class="timeline-item__tags">
+                <span>ShieldAI</span>
+                <span>Python</span>
+                <span>ML</span>
+                <span>Cybersecurity</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- TCS iON -->
+          <article class="timeline-item reveal reveal--delay-3" aria-labelledby="exp-tcs-title">
+            <div class="timeline-item__marker" aria-hidden="true">
+              <div class="timeline-item__dot"></div>
+            </div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__header">
+                <div>
+                  <h3 class="timeline-item__title" id="exp-tcs-title">Internship / Learning Experience</h3>
+                  <p class="timeline-item__company">TCS iON</p>
+                </div>
+                <div class="timeline-item__meta">
+                  <span class="timeline-item__date">[ Dates — please add ]</span>
+                </div>
+              </div>
+              <p class="timeline-item__desc">
+                [ Add your responsibilities, projects, and key learnings from TCS iON here. ]
+              </p>
+              <div class="timeline-item__tags">
+                <span>TCS iON</span>
+                <span>[ Add technologies ]</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATES ───────────────────────────────────────── -->
+    <section class="certificates section" id="certificates" aria-labelledby="certificates-heading">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__num">05</span>
+          <span class="section-label__line" aria-hidden="true"></span>
+          <span class="section-label__text">Certificates</span>
+        </div>
+
+        <h2 class="display-heading reveal reveal--delay-1" id="certificates-heading">
+          LEARNING<br/><em>NEVER STOPS.</em>
+        </h2>
+
+        <div class="cert-grid">
+          <!-- Srishti cert -->
+          <div class="cert-card reveal reveal--delay-2" aria-label="Srishti Innovatives certificate placeholder">
+            <div class="cert-card__icon" aria-hidden="true">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Internship Certificate</h3>
+              <p class="cert-card__issuer">Srishti Innovatives</p>
+              <p class="cert-card__date">[ Date — please add ]</p>
+              <div class="cert-card__links">
+                <!-- Replace href="#" with actual PDF or image path when ready -->
+                <span class="cert-link cert-link--placeholder">
+                  <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                  Certificate PDF — coming soon
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TCS iON cert -->
+          <div class="cert-card reveal reveal--delay-2" aria-label="TCS iON certificate placeholder">
+            <div class="cert-card__icon" aria-hidden="true">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Learning Certificate</h3>
+              <p class="cert-card__issuer">TCS iON</p>
+              <p class="cert-card__date">[ Date — please add ]</p>
+              <div class="cert-card__links">
+                <span class="cert-link cert-link--placeholder">
+                  <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                  Certificate PDF — coming soon
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional slot -->
+          <div class="cert-card cert-card--add reveal reveal--delay-3" aria-label="Add more certificates here">
+            <div class="cert-card__icon" aria-hidden="true">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">More Certificates</h3>
+              <p class="cert-card__issuer">[ Add additional technical certificates here ]</p>
+              <p class="cert-card__date">e.g. Coursera, Google, AWS, NPTEL…</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── RESUME ─────────────────────────────────────────────── -->
+    <section class="resume section" id="resume" aria-labelledby="resume-heading">
+      <div class="container">
+        <div class="resume__inner">
+          <div class="resume__text">
+            <div class="section-label reveal">
+              <span class="section-label__num">06</span>
+              <span class="section-label__line" aria-hidden="true"></span>
+              <span class="section-label__text">Resume</span>
+            </div>
+            <h2 class="display-heading reveal reveal--delay-1" id="resume-heading">
+              LET'S TALK ABOUT<br/><em>WHAT'S NEXT.</em>
+            </h2>
+            <p class="reveal reveal--delay-2">
+              Interested in AI systems, automation engineering, or innovative projects? My resume captures the full picture — experience, skills, and what I bring to the table.
+            </p>
+          </div>
+          <div class="resume__cta reveal reveal--delay-3">
+            <!-- Replace href with actual PDF path: assets/resume-adarsh-s.pdf -->
+            <span class="btn btn--primary btn--resume btn--placeholder" aria-label="Resume PDF — coming soon. Replace placeholder with real PDF">
+              <i class="fas fa-file-arrow-down" aria-hidden="true"></i>
+              Download Resume — coming soon
+            </span>
+            <p class="resume__note">
+              PDF will be linked here once uploaded to the <code>assets/</code> folder.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ────────────────────────────────────────────── -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__num">07</span>
+          <span class="section-label__line" aria-hidden="true"></span>
+          <span class="section-label__text">Contact</span>
+        </div>
+
+        <h2 class="display-heading reveal reveal--delay-1" id="contact-heading">
+          HAVE AN IDEA?<br/><em>LET'S BUILD IT.</em>
+        </h2>
+
+        <div class="contact__grid">
+          <!-- Contact info -->
+          <div class="contact__info reveal reveal--delay-2">
+            <p class="contact__intro">
+              I'm open to interesting projects, collaborations, and conversations about AI and automation. The best way to reach me is a direct message.
+            </p>
+
+            <ul class="contact__list" role="list">
+              <li>
+                <a href="mailto:adarshuser27@gmail.com" class="contact-item" aria-label="Email Adarsh">
+                  <span class="contact-item__icon" aria-hidden="true"><i class="fas fa-envelope"></i></span>
+                  <div>
+                    <span class="contact-item__label">Email</span>
+                    <span class="contact-item__value">adarshuser27@gmail.com</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/AD-AR-SH" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                  <span class="contact-item__icon" aria-hidden="true"><i class="fab fa-github"></i></span>
+                  <div>
+                    <span class="contact-item__label">GitHub</span>
+                    <span class="contact-item__value">AD-AR-SH</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/adarsh-ml" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                  <span class="contact-item__icon" aria-hidden="true"><i class="fab fa-linkedin-in"></i></span>
+                  <div>
+                    <span class="contact-item__label">LinkedIn</span>
+                    <span class="contact-item__value">adarsh-ml</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <!-- WHATSAPP: Awaiting country code confirmation for 9961308526.
+                     Once confirmed, replace href with:
+                     https://wa.me/[COUNTRYCODE]9961308526
+                     e.g. for India (+91): https://wa.me/919961308526
+                -->
+                <div class="contact-item contact-item--pending" aria-label="WhatsApp — pending configuration">
+                  <span class="contact-item__icon" aria-hidden="true"><i class="fab fa-whatsapp"></i></span>
+                  <div>
+                    <span class="contact-item__label">WhatsApp</span>
+                    <span class="contact-item__value">9961308526</span>
+                    <span class="contact-item__note">⚠ Awaiting country code confirmation — not yet activated</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <!-- TAWK.TO LIVE CHAT: Widget inactive — configure below.
+                     1. Sign up at tawk.to
+                     2. Create a property & get your Property ID and Widget ID
+                     3. In script.js, find the tawkto section and add your IDs
+                     4. Remove the "inactive" state once configured
+                -->
+                <div class="contact-item contact-item--pending" aria-label="Live chat — pending configuration">
+                  <span class="contact-item__icon" aria-hidden="true"><i class="fas fa-comments"></i></span>
+                  <div>
+                    <span class="contact-item__label">Live Chat</span>
+                    <span class="contact-item__value">tawk.to widget</span>
+                    <span class="contact-item__note">⚠ Requires tawk.to account setup — see setup guide</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact form -->
+          <div class="contact__form-wrap reveal reveal--delay-3">
+            <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+              <div class="form-note" role="note">
+                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                This form opens your email app with a pre-filled message to Adarsh. It does not send directly from the browser.
+              </div>
+
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="form-name"
+                  name="name"
+                  class="form-input"
+                  placeholder="e.g. Priya Sharma"
+                  required
+                  autocomplete="name"
+                  aria-required="true"
+                  aria-describedby="name-error"
+                />
+                <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email <span aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="form-email"
+                  name="email"
+                  class="form-input"
+                  placeholder="e.g. you@example.com"
+                  required
+                  autocomplete="email"
+                  aria-required="true"
+                  aria-describedby="email-error"
+                />
+                <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="form-subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="e.g. Collaboration idea"
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message <span aria-hidden="true">*</span></label>
+                <textarea
+                  id="form-message"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Tell me about your idea, project, or question…"
+                  required
+                  rows="5"
+                  aria-required="true"
+                  aria-describedby="message-error"
+                ></textarea>
+                <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="formSubmit">
+                <span>Open Email Draft</span>
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">AS</span>
+          <div>
+            <p class="footer__name">Adarsh S</p>
+            <p class="footer__desc">AI Systems &amp; Automation</p>
+          </div>
+        </div>
+
+        <div class="footer__social">
+          <a href="https://github.com/AD-AR-SH" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/adarsh-ml" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:adarshuser27@gmail.com" class="footer__social-link" aria-label="Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <p class="footer__copy">
+          &copy; <span id="footerYear">2026</span> Adarsh S. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BACK TO TOP
+  ============================================================ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- TAWK.TO LIVE CHAT — INACTIVE PLACEHOLDER
+       To activate:
+       1. Create account at https://www.tawk.to
+       2. Add a property, get your Property ID and Widget ID
+       3. Uncomment the script below and replace PROPERTY_ID and WIDGET_ID
+  -->
+  <!--
+  <script>
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/PROPERTY_ID/WIDGET_ID';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+  -->
+
+  <script src="script.js"></script>
+</body>
+</html>
