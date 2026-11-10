@@ -286,7 +286,7 @@ function initTawkTo() {
    - Replace WHATSAPP_URL below and un-comment the activateWhatsApp() call
    ──────────────────────────────────────────────────────────────── */
 function activateWhatsApp() {
-  const WHATSAPP_URL = ''; // Set this after confirming country code
+const WHATSAPP_URL = 'https://wa.me/919961308526'; // Set this after confirming country code
 
   if (!WHATSAPP_URL) {
     console.info('[Portfolio] WhatsApp URL not configured. Confirm country code first.');
